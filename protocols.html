@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_pack/index_style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <title>protocols_page_administrative</title>
+</head>
+<body>
+<div class="main_block"> <!-- главный блок обертка для всей страницы (( --> 
+<div class="header_space"></div>
+<div class="block_header">блок управления пункта протоколов сайта https://www.strongmanrussia.ru/#/</div>
+<button type="button" class="btn btn-danger">назад</button> <!-- кнопка назад -->
+<button type="button" class="btn btn-danger">вперед</button> <!-- кнопка вперед -->
+<div class="protocols_images_block"> <!-- блок для изображений протоколов (( -->
+<div class="protocols_cover_numerick"> <!-- блок для изображений протоколов с нумерацией (( -->
+<div class="cover_protocol_image">обложка для статистики протоколов</div> <!-- обложка статистики протоколов -->
+<div class="protocol_image_stats">таблица протоколов</div> <!-- изображение статистики протоколов -->
+<input type="text" placeholder="название протокола" readonly style="font-size:12px ; width: 350px;">
+<p>1</p> <!-- нумерация для блоков изображений по порядку -->
+</div> <!-- блок для изображений протоколов с нумерацией )) -->
+<div class="protocols_cover_numerick"> <!-- блок для изображений протоколов с нумерацией (( -->
+<div class="cover_protocol_image">обложка для статистики протоколов</div> <!-- обложка статистики протоколов -->
+<div class="protocol_image_stats">таблица протоколов</div> <!-- изображение статистики протоколов -->
+<input type="text" placeholder="название протокола" readonly style="font-size:12px ; width: 350px;">
+<p>2</p> <!-- нумерация для блоков изображений по порядку -->
+</div> <!-- блок для изображений протоколов с нумерацией )) -->
+</div> <!-- блок для изображений протоколов )) -->
+<div class="block_of_rule" style="display:flex;"><!-- Блок управления (( -->
+<div class="mb-3"> <!-- форма загрузить с компьютера файл для изображения (( -->
+<label for="formFile" class="form-label">добавление фотографии для обложки</label>
+<input class="form-control" style="width: 300px;" type="file" id="formFile">
+<button type="button" class="btn btn-danger">подтвердить</button> <!-- кнопка подтвердить -->
+<button type="button" class="btn btn-danger">удалить</button> <!-- кнопка удалить -->
+</div> <!-- форма загрузить с компьютера файл для изображения )) -->
+
+<div class="mb-3"> <!-- форма загрузить с компьютера файл для таблицы статистики (( -->
+<label for="formFile" class="form-label">добавление изображения статистики</label>
+<input class="form-control" style="width: 300px;" type="file" id="formFile">
+<button type="button" class="btn btn-danger">подтвердить</button> <!-- кнопка подтвердить -->
+<button type="button" class="btn btn-danger">удалить</button> <!-- кнопка удалить -->
+</div> <!-- форма загрузить с компьютера файл для таблицы статистики )) -->
+</div><!-- Блок управления )) -->
+<div class="describtion_of_protocols_entry" style="font-size: 15px;"><!-- блок управления формой записи названия к обложке протоколов ((-->   
+<label for="formFile" class="form-label">добавление текста статистики</label>
+<input type="text" style="width: 300px; height: 30px;"> <!-- ввод текста -->
+<button type="button" class="btn btn-danger">подтвердить</button>
+</div><!-- блок управления формой записи названия к обложке протоколов ))-->    
+
+
+    </div> <!-- конец обертки главного блока )) -->
+</body>
+</html>
