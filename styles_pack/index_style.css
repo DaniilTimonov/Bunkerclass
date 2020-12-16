@@ -1,6 +1,6 @@
-/* * {
+* {
     margin:0px auto;
-} */
+}
 .main_block {
     width: 1280px;
     height:1024px;
@@ -15,4 +15,46 @@
     border-radius: 50px;
     border:2px solid black;
  
+}
+.figure {
+    width: 200px;
+    height: 200px;
+}
+.form-label {
+    font-size:12px;
+}
+.card-group {
+    width: 500px;
+    height: 100%;
+}
+
+.card-img-top {
+    width: auto;
+    height: auto;
+}
+.card {
+    width: 500px;   
+}
+.url_company {
+    width:300px;
+}
+.card-img-anonc {
+    width: 500px;
+    height: 200px;
+}
+.cover_image_announcement {
+    width: 400px;
+    height: 600px;
+    background-color: grey;
+    border-radius: 2px;
+}
+.blocks_for_image_covers {
+    display: flex;
+}
+.input_title_text {
+    font-size:20px;
+    
+}
+.announcetitle_and_submitbutton {
+    display:flex;
 }
