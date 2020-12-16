@@ -48,6 +48,12 @@
     background-color: grey;
     border-radius: 2px;
 }
+.cover_image_news {
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 2px;
+}
 .blocks_for_image_covers {
     display: flex;
 }

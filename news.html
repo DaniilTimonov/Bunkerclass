@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_pack/index_style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <title>news_page_administrative</title>
+</head>
+<body>
+<div class="main_block"> <!-- главный блок обертка для всей страницы (( --> 
+<div class="header_space"></div>
+<div class="block_header">блок управления пункта новостей сайта https://www.strongmanrussia.ru/#/</div>
+<button type="button" class="btn btn-danger">назад</button> <!-- кнопка назад -->
+<button type="button" class="btn btn-danger">вперед</button> <!-- кнопка вперед -->
+<div class="blocks_for_image_covers"> <!-- коробка для блоков изображений новостей (( -->
+<div class="block_for_image_cover"> <!-- коробка для блока картинки с нумерованной цифрой порядковой (( -->
+    <div class="cover_image_news"></div>
+    <input type="text" placeholder="здесь будет название новости" readonly style="font-size:12px ; width: 350px;">
+    <input type="text" placeholder="описание описание новости" readonly style="font-size:12px ; width: 350px; height: 300px;">
+    <p>1</p>
+</div> <!-- коробка для блока картинки с нумерованной цифрой порядковой )) -->
+<div class="block_for_image_cover"> <!-- коробка для блока картинки с нумерованной цифрой порядковой (( -->
+    <div class="cover_image_news"></div>
+    <input type="text" placeholder="здесь будет название новости" readonly style="font-size:12px; width: 350px;">
+    <input type="text" placeholder="описание новости" readonly style="font-size:12px;width: 350px; height: 300px;">
+    <p>2</p>
+    
+</div> <!-- коробка для блока картинки с нумерованной цифрой порядковой )) -->
+<div class="block_for_image_cover"> <!-- коробка для блока картинки с нумерованной цифрой порядковой (( -->
+    <div class="cover_image_news"></div>
+    <input type="text" placeholder="здесь будет название новости" readonly style="font-size:12px ; width: 350px;">
+    <input type="text" placeholder="описание новости" readonly style="font-size:12px ; width: 350px; height: 300px;">
+    <p>3</p>
+</div> <!-- коробка для блока картинки с нумерованной цифрой порядковой )) -->
+</div> <!-- коробка для блоков изображений новостей )) -->
+<div class="buttons_add_delete"> <!-- коробка блоков для кнопок добавить удалить (( -->
+    <div class="mb-3">
+    <label for="formFile" class="form-label">добавление фотографии</label>
+    <input class="form-control" type="file" id="formFile">
+    </div>
+    <button type="button" class="btn btn-danger">подтвердить</button> <!-- кнопка подтвердить -->
+    <button type="button" class="btn btn-danger">удалить</button> <!-- кнопка удалить -->
+    </div> <!-- коробка блоков для кнопок добавить удалить )) -->
+    <div class="announcetitle_and_submitbutton"> <!-- коробка для наименования анонса и кнопки подтвердить (( -->
+    <input type="text" placeholder="введи сюда название новости" class="input_title_text" style="width: 300px;"> <!-- пол ввода наименования анонса -->
+    <button type="button" class="btn btn-danger">отправить</button> <!-- подтвердить -->
+    </div> <!-- коробка для описания анонса и кнопки подтвердить )) -->
+    <div class="announcementdescribtion_and_submitbutton" style="display:flex;"> <!-- коробка для наименования анонса и кнопки подтвердить (( -->
+    <input type="text" placeholder="введи сюда описание новости" class="input_title_text" style="width: 300px; height:300px;"> <!-- пол ввода наименования анонса -->
+    <button type="button" class="btn btn-danger">отправить</button> <!-- подтвердить -->
+    </div> <!-- коробка для ввода колличества символов и кнопки подтвердить )) -->
+    <div class="size_max_min_regulation" style="display:flex;"> <!-- коробка для наименования анонса и кнопки подтвердить (( -->
+    <input type="text" placeholder="введи значение в цифрах" class="input_title_text" style="width: 300px;"> <!-- пол ввода наименования анонса -->
+    <button type="button" class="btn btn-danger">отправить</button> <!-- подтвердить -->
+    </div> <!-- коробка для описания анонса и кнопки подтвердить )) -->
+    </div> <!-- конец обертки главного блока )) -->
+</body>
+</html>
