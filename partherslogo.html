@@ -13,48 +13,57 @@
 <div class="main_block"> <!-- главный блок обертка для всей страницы --> 
 <div class="header_space"></div>
 <div class="block_header">блок управления пункта логотипы партнеров сайта https://www.strongmanrussia.ru/#/</div>
-<div class="block_logo_rule"><!-- форма управления блоком изменения логотипов -->
-
+<div class="block_logo_rule"><!-- форма управления блоком изменения логотипов  -->
 <button type="button" class="btn btn-danger">назад</button>
 <button type="button" class="btn btn-danger">вперед</button>
 <div class="card-group"> <!-- коробка для карточек логотипов (( -->
-    <div class="card">
-      <img src="https://yt3.ggpht.com/a/AGF-l7_SLsJ6hvKWtclePV4sSlQrm-XgbjpBx9aKPQ=s900-c-k-c0xffffffff-no-rj-mo" class="card-img-top" alt="...">
-      <figcaption class="figure-caption">1</figcaption>
-    </div>
-    <div class="card">
-      <img src="https://yt3.ggpht.com/a/AGF-l7_SLsJ6hvKWtclePV4sSlQrm-XgbjpBx9aKPQ=s900-c-k-c0xffffffff-no-rj-mo" class="card-img-top" alt="...">
-      <figcaption class="figure-caption">2</figcaption>
-    </div>
-    <div class="card">
-      <img src="https://yt3.ggpht.com/a/AGF-l7_SLsJ6hvKWtclePV4sSlQrm-XgbjpBx9aKPQ=s900-c-k-c0xffffffff-no-rj-mo" class="card-img-top" alt="...">
-      <figcaption class="figure-caption">3</figcaption>
-    </div>
-  </div> <!-- коробка для карточек логотипов )) -->
-<div class="buttons_add_delete"> <!-- коробка блоков для кнопок добавить удалить (( -->
-<div class="mb-3">
+<div class="logos_with_numeric"> <!-- блок связка логотип плюс нумерация (( -->
+<div class="logo_image active_logo_image"></div> <!-- логотип его активное изображение -->
+<p>1</p> <!-- порядковый номер изображения -->
+</div> <!-- блок связка логотип плюс нумерация )) -->
+<div class="logos_with_numeric"> <!-- блок связка логотип плюс нумерация (( -->
+<div class="logo_image"></div> <!-- логотип его активное изображение -->
+<p>2</p> <!-- порядковый номер изображения -->
+</div> <!-- блок связка логотип плюс нумерация )) -->
+<div class="logos_with_numeric"> <!-- блок связка логотип плюс нумерация (( -->
+<div class="logo_image"></div> <!-- логотип его активное изображение -->
+<p>3</p> <!-- порядковый номер изображения -->
+</div> <!-- блок связка логотип плюс нумерация )) -->
+</div> <!-- коробка для карточек логотипов )) -->
+<div class="rule_form" style="display: flex;"> <!-- коробка для управления блоков форм (( -->
+
+<div class="buttons_add_delete" > <!-- коробка блоков для кнопок добавить удалить (( -->
+<div class="mb-3" style="width: 200px;">
 <label for="formFile" class="form-label">добавление логотипа</label>
-<input class="form-control" type="file" id="formFile">
+<input class="form-control" style="width:200px;" type="file" style="width: 200px;" id="formFile">
 </div>
 <button type="button" class="btn btn-danger">подтвердить</button> <!-- кнопка подтвердить -->
 <button type="button" class="btn btn-danger">удалить</button> <!-- кнопка удалить -->
 </div> <!-- коробка блоков для кнопок добавить удалить )) -->
 <div class="url_company"> <!-- блок для поля добавление ссылки на сайт компании (( -->
+<label for="formFile" class="form-label">добавление ссылки</label>
 <div class="input-group mb-3">
 <input type="text" class="form-control" placeholder="ссылка логотипа компании" aria-label="Recipient's username" aria-describedby="button-addon2">
 <button class="btn btn-outline-secondary" type="button" id="button-addon2">подтвердить</button>
 </div>  
 </div> <!-- блок для поля добавление ссылки на сайт компании ))  -->
 <div class="width_block"> <!-- форма управления размера по ширине (( -->
-<input type="text" class="form-control" placeholder="ширина" aria-label="Recipient's username" aria-describedby="button-addon2">
+<label for="formFile" class="form-label">размер по ширине</label>
+<input type="text" class="form-control" style="width: 100px;" placeholder="ширина" aria-label="Recipient's username" aria-describedby="button-addon2">
 <button class="btn btn-outline-secondary" type="button" id="button-addon2">подтвердить</button>
 </div> <!-- форма управления размера по ширине )) -->
 <div class="width_block"> <!-- форма управления размера по высоте (( -->
-    <input type="text" class="form-control" placeholder="высота" aria-label="Recipient's username" aria-describedby="button-addon2">
+<label for="formFile" class="form-label">размер по высоте</label>
+<input type="text" style="width: 100px;" class="form-control" placeholder="высота" aria-label="Recipient's username" aria-describedby="button-addon2">
+<button class="btn btn-outline-secondary" type="button" id="button-addon2">подтвердить</button>
+</div> <!-- форма управления размера по высоте )) -->
+<div class="url_company"> <!-- блок для поля добавление альтернативного текста (( -->
+<label for="formFile" class="form-label">добавление альтернативного текста</label>
+<div class="input-group mb-3">
+<input type="text" class="form-control" placeholder="альтернативный текст" aria-label="Recipient's username" aria-describedby="button-addon2">
     <button class="btn btn-outline-secondary" type="button" id="button-addon2">подтвердить</button>
-    </div> <!-- форма управления размера по высоте )) -->
+    </div>  
 </div> <!-- конец коробки формы управления блока измнения логотипов -->
-
     </div> <!-- конец обертки главного блока -->
 </body>
 </html>
